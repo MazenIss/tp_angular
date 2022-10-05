@@ -1,0 +1,4 @@
+<div [style.background]="color">Color</div>
+<input #input (change)="changecolor(input.value)" type="text">
+<app-fils [ParentColor]="color" (emitColor)="catchColor($event)">
+</app-fils>

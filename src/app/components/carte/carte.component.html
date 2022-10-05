@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <div class="card" style="width: 18rem;">
+                <img [src]="path" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><span>{{name}}    </span> <span>{{firstname}}</span></h5>
+                    <p class="card-text">{{job}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="mb-3">
+                <label for="Name" class="form-label">Name</label>
+                <input [(ngModel)]="name" type="text" class="form-control" id="exampleInputname">
+            </div>
+            <div class="mb-3">
+                <label for="firstname" class="form-label ">First name</label>
+                <input [(ngModel)]="firstname" type="text" class="form-control ">
+            </div>
+            <div class="mb-3 ">
+                <label for="exampleInputjob" class="form-label ">job</label>
+                <input [(ngModel)]="job" type="text" class="form-control ">
+            </div>
+            <div class="mb-3 ">
+                <label for="path" class="form-label ">path</label>
+                <input [(ngModel)]="path" type="text" class="form-control">
+            </div>
+        </div>
+
+    </div>
+</div>
