@@ -1,0 +1,9 @@
+    .container {
+        border-bottom: 2px solid grey;
+        padding: 5px;
+    }
+    
+    img {
+        height: 100px;
+        width: 100px;
+    }
